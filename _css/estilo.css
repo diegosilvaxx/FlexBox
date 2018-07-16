@@ -17,8 +17,31 @@ header{
     align-items: center;
 }
 .menu{
-
+    display: flex;
+    align-items: center;
 }
 .logo img{
 
+}
+nav ul,
+nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #727272;
+}
+nav .active a,
+nav a:hover{
+    background-color: #39aae1;
+    color: white;
 }
