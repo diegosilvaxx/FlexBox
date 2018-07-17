@@ -177,8 +177,29 @@ nav a:hover{
 }
 .widget_text{
     font-size: 16px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid rgba(30,800,80,0.9);
+
 }
+.widget_text div{
+    border-bottom: 2px solid rgba(100,10,10,0.2);
+    padding-bottom: 20px;
+}
+.contato{
+    display: flex;
+}
+.contato{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(100,10,10,0.2);
+}
+.contato .quad_contato{
+    width: 30px;
+    height: 30px;
+    background-color: #555555;
+}
+.contato div{
+    margin-right: 30px;
+    align-self: center;
+}
+
 
 
