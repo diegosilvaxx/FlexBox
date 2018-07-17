@@ -11,9 +11,9 @@ header{
     height: 120px;
 }
 .container{
-    justify-content: space-between;
     display: flex;
     width: 990px;
+    justify-content: space-between;
 }
 .logo{
     display: flex;
@@ -106,9 +106,7 @@ nav a:hover{
 .banner3{
     background-color: #2b4c99;
 }
-.banner_title{
-    font-size: 21px;
-}
+
 .banner_desc{
     font-size: 12px;
     margin-top: 20px;
@@ -122,3 +120,22 @@ nav a:hover{
     padding: 5px;
     font-size: 12px;
 }
+
+.banner_title{
+    display: flex;
+    font-size: 21px;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.dias{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(900,900,900,0.1);
+}
+
+
+
