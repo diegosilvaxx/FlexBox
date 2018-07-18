@@ -251,5 +251,146 @@ article{
     min-width: 250px;
 }
 
+footer{
+    height: auto;
+    background-color: black;
+}
+.container_rodape{
+    display: flex;
+    justify-content: center;
+}
 
+.container_top{
+    display: flex;
+    width: 990px;
+}
+.container_top div{
+    flex: 1;
+    height: 90px;
+}
+.container_top #left{
+    background-color: #39aae1;
+    display: flex;
+    flex-direction: column;
+}
+.container_top #center{
+    background-color: #0079c7;
+    display: flex;
+    flex-direction: column;
+}
+.container_top #right{
+background-color: #2b4c99;
+    display: flex;
+    flex-direction: column;
+}
+.titulo_rodape{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.subtitulo{
+    color: white;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+.subtitle{
+    color: white;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+.container_buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu_footer{
+    flex: 1;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.footer_menu{
+    display: flex;
+    width: 990px;
+}
 
+.container_buttom_barra {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu_barra{
+    display: flex;
+    width: 990px;
+}
+
+.barra_footer {
+    width: 62px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-right: 268px;
+    margin-top: 5px;
+}
+.container_buttom_text{
+    display: flex;
+    justify-content: center;
+
+}
+.footer_menu_text{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+
+}
+.footer_menu_text div{
+    margin-right: 20px;
+    margin-top: 20px;
+    color: #5c5c5c;
+    flex: 1;
+}
+#footer_quad div{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #727272;
+    margin-right: 10px;
+}
+.container_rede{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container_rede div{
+    margin: 0;
+    padding: 0;
+}
+#footer_email{
+    color: white;
+}
+.data_footer a{
+    text-decoration: none;
+    color: #36a9e1;
+}
+.final{
+    border-bottom: 1px solid rgba(100,100,10,0.2);
+    padding-bottom: 20px;
+}
+.footer_rodape{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer_rodape_int{
+    width: 990px;
+    color: #727272;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer_rodape_int a{
+    text-decoration: none;
+    color: white;
+}
